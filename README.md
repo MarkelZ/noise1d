@@ -1,7 +1,9 @@
 # Noise1D
 
 ## Description
-One-dimensional noise with spatial consistency for C++ and Python 3. The C++ code is header-only.
+One-dimensional noise with spatial consistency for C++ and Python 3. 
+
+The C++ code is __header-only__.
 
 ## Using Noise1D in your project
 
