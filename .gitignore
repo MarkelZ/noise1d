@@ -1,6 +1,9 @@
 # Output
 example
 
+# Ignore the makefile
+Makefile
+
 # Prerequisites
 *.d
 

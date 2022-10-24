@@ -3,12 +3,19 @@
 
 int main()
 {
-    // Construct a 1D noise generator with seed 123
-    uint seed = 123;
-    noise1d::Noise1DGenerator n1d(seed);
+    // Create a 1D noise generator with a random seed
+    noise1d::Noise1DGenerator n1d;
 
     // Get noise value at t = 10.f
-    std::cout << n1d.noise(10.f) << "\n";
+    double noise = n1d.noise(10.f);
+    std::cout << "Noise at t=10: " << noise << "\n";
+
+    // Get seed
+    uint seed = n1d.getSeed();
+    std::cout << "Seed: " << seed << "\n";
+
+    // You can also create a noise generator with a given seed
+    noise1d::Noise1DGenerator n1d(123);
 
     return 0;
 }

@@ -1,26 +1,17 @@
 # Noise1D
 
 ## Description
-Header-only, one-dimensional noise with spatial consistency.
+One-dimensional noise with spatial consistency for C++ and Python 3. The C++ code is header-only.
 
 ## Using Noise1D in your project
-1. Copy `noise1d.hpp` to your project.
-2. Include the file:
-```cpp
-#include "noise1d.hpp"
-```
-3. Create a new noise generator:
-```cpp
-Noise1DGenerator generator(...);
-```
 
-## Example
-Build the example with
-```shell
-g++ example.cpp -o example
-```
+__C++__
 
-Run the example with
-```shell
-./example
-```
+Copy `noise1d.hpp` to your project and do as in `example.cpp`.
+
+__Python 3__
+
+Copy `noise1d.py` to your project and do as in `example.py`.
+
+## License
+This code is licensed under the terms of The Unlicense.
