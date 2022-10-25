@@ -16,4 +16,4 @@ __Python 3__
 Copy `noise1d.py` to your project and do as in `example.py`.
 
 ## License
-This code is licensed under the terms of The Unlicense.
+This code is licensed under the terms of the Unlicense.
