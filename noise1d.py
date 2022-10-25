@@ -7,7 +7,7 @@ class Noise1DGenerator:
     """
     One-dimensional noise with spatial consistency. 
 
-    - Ranges in [-1 to 1], including both endpoints.
+    - Ranges from -1 to 1, including both endpoints.
     - It is smooth, and aperiodic.
 
     Note that this is not perlin/simplex noise.
@@ -39,6 +39,10 @@ class Noise1DGenerator:
     def noise(self, t):
         """
         Return the value of the noise at t.
+
+        t is a float that ranges from -infinity to infinity.
+
+        The returned value ranges from -1 to 1.
         """
 
         return (sin(t + self.coefs[0]) * cos(Noise1DGenerator.C1*t + self.coefs[1]) +

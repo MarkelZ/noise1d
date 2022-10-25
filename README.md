@@ -5,6 +5,8 @@ One-dimensional noise with spatial consistency for C++ and Python 3.
 
 The C++ code is __header-only__.
 
+This is __not__ perlin/simplex noise. It is similar to a truncated fourier series, but with aperiodicity.
+
 ## Using Noise1D in your project
 
 __C++__
