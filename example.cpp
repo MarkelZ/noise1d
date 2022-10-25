@@ -15,7 +15,7 @@ int main()
     std::cout << "Seed: " << seed << "\n";
 
     // You can also create a noise generator with a given seed
-    noise1d::Noise1DGenerator n1d(123);
+    noise1d::Noise1DGenerator n1d(12345678);
 
     return 0;
 }

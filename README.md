@@ -17,5 +17,8 @@ __Python 3__
 
 Copy `noise1d.py` to your project and do as in `example.py`.
 
+## Plot of the curve
+![plot](plot.png)
+
 ## License
 This code is licensed under the terms of the Unlicense.

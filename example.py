@@ -20,4 +20,5 @@ n1d = noise1d.Noise1DGenerator(seed=12345678)
 tt = np.linspace(start=0.0, stop=20.0, num=256)
 yy = [n1d.noise(t) for t in tt]
 plt.plot(tt, yy)
+plt.ylim(top=1, bottom=-1)
 plt.show()
